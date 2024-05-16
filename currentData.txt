@@ -1,0 +1,18 @@
+date: 2024-12-01 temp: 2.3 prec: 1.1
+date: 2024-12-02 temp: 1 prec: 0
+date: 2024-12-03 temp: 0.8 prec: 4.2
+date: 2024-12-24 temp: -1.5 prec: 0
+date: 2024-12-05 temp: 1.2 prec: 3.5
+date: 2024-12-06 temp: 2 prec: 0
+date: 2024-12-07 temp: 1.8 prec: 2.3
+date: 2024-12-08 temp: 0.5 prec: 0
+date: 2024-12-09 temp: -0.3 prec: 5
+date: 2024-12-10 temp: 1.5 prec: 0
+
+
+
+
+for(int i = 0; i < data.size(); i++)
+{
+    cout << "date: " << data[i].date << " temp: " << data[i].temperature << " prec: " << data[i].precipitation << endl;
+}
